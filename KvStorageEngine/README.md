@@ -39,7 +39,7 @@
 
   跳表是在一个原始链表中添加了多级索引，通过每一级索引来进行二分搜索的数据结构，其架构如下：
 
-![跳表](https://img-blog.csdnimg.cn/20210430130749617.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80NTQ4MDc4NQ==,size_16,color_FFFFFF,t_70)
+![跳表](https://123wangju123.github.io/img-post/%E9%A1%B9%E7%9B%AE%E8%83%8C%E6%99%AF/%E3%80%90%E5%AD%A6%E4%B9%A0%E9%A1%B9%E7%9B%AE%E3%80%91%E5%9F%BA%E4%BA%8E%E8%B7%B3%E8%A1%A8%E7%BB%93%E6%9E%84%E7%9A%84KV%E5%AD%98%E5%82%A8%E5%BC%95%E6%93%8E%E8%AE%BE%E8%AE%A1/%E8%B7%B3%E8%A1%A8%E7%9A%84%E7%BB%93%E6%9E%84.png)
 
   在上述跳表中，假如查询key=10的记录，则可以从第二级索引开始快速定位：
 
