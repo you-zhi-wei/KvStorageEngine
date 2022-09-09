@@ -1,25 +1,3 @@
-<style>
-    h1 {
-        color:green;
-        text-align:center;
-        counter-reset: h1
-        /*font-weight:bold;*/
-    }
-    h2 {
-        color:#ff9933;
-        /*text-align:center;*/
-        font-weight:bold;
-    }
-    h3 {
-        color:#9933ff;
-        /*text-align:center;*/
-        font-weight:bold;
-    }
-    body {
-        font-size:20 px;
-    }
-</style>
-
 # 基于跳表实现的键值型存储引擎
 
 ## 项目说明
